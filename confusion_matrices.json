@@ -1,0 +1,202 @@
+{
+    "none": {
+        "matrix": [
+            [
+                771,
+                79,
+                9
+            ],
+            [
+                146,
+                597,
+                17
+            ],
+            [
+                9,
+                10,
+                986
+            ]
+        ],
+        "labels": [
+            "Cars",
+            "Drones",
+            "People"
+        ],
+        "title": "CNN"
+    },
+    "channel": {
+        "matrix": [
+            [
+                706,
+                106,
+                47
+            ],
+            [
+                44,
+                689,
+                27
+            ],
+            [
+                2,
+                6,
+                997
+            ]
+        ],
+        "labels": [
+            "Cars",
+            "Drones",
+            "People"
+        ],
+        "title": "CNN + Channel"
+    },
+    "spatial": {
+        "matrix": [
+            [
+                687,
+                167,
+                5
+            ],
+            [
+                10,
+                750,
+                0
+            ],
+            [
+                23,
+                35,
+                947
+            ]
+        ],
+        "labels": [
+            "Cars",
+            "Drones",
+            "People"
+        ],
+        "title": "CNN + Spatial"
+    },
+    "cbam": {
+        "matrix": [
+            [
+                732,
+                114,
+                13
+            ],
+            [
+                46,
+                711,
+                3
+            ],
+            [
+                12,
+                16,
+                977
+            ]
+        ],
+        "labels": [
+            "Cars",
+            "Drones",
+            "People"
+        ],
+        "title": "CNN + CBAM"
+    },
+    "resnet_ft": {
+        "matrix": [
+            [
+                703,
+                129,
+                27
+            ],
+            [
+                29,
+                726,
+                5
+            ],
+            [
+                5,
+                5,
+                995
+            ]
+        ],
+        "labels": [
+            "Cars",
+            "Drones",
+            "People"
+        ],
+        "title": "ResNet"
+    },
+    "vit_tiny": {
+        "matrix": [
+            [
+                755,
+                82,
+                22
+            ],
+            [
+                128,
+                614,
+                18
+            ],
+            [
+                13,
+                5,
+                987
+            ]
+        ],
+        "labels": [
+            "Cars",
+            "Drones",
+            "People"
+        ],
+        "title": "ViT-tiny"
+    },
+    "ours2": {
+        "matrix": [
+            [
+                743,
+                102,
+                14
+            ],
+            [
+                26,
+                729,
+                5
+            ],
+            [
+                3,
+                8,
+                994
+            ]
+        ],
+        "labels": [
+            "Cars",
+            "Drones",
+            "People"
+        ],
+        "title": "OURS (Coord)"
+    },
+    "dopplernet": {
+        "matrix": [
+            [
+                753,
+                94,
+                12
+            ],
+            [
+                54,
+                697,
+                9
+            ],
+            [
+                11,
+                10,
+                984
+            ]
+        ],
+        "labels": [
+            "Cars",
+            "Drones",
+            "People"
+        ],
+        "title": "DopplerNet (1-frame)"
+    }
+}
